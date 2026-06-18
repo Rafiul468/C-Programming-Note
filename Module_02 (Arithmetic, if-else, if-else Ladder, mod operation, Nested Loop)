@@ -1,0 +1,241 @@
+                //Arithmetic
+
+#include<stdio.h>
+int main()
+{
+    int a =10;
+    int b =20;
+    int sum = a + b;
+    printf("%d\n", sum);
+
+    int sub = a-b;
+    printf("%d\n", sub);
+
+    int mul = a*b;
+    printf("%d\n", mul);
+
+    int div = a/b;
+    printf("%d\n", div);
+    
+    return 0;
+}
+
+
+======================================================================================================================
+
+                //if-else
+
+#include<stdio.h>
+int main()
+{
+    int tk;
+    scanf("%d", &tk);
+
+    if(tk>=100){
+        printf("Burger khabo\n");   //if er code
+    }else{
+        printf("Burger khabo na\n");  //else er code
+    }
+
+    return 0;
+}
+
+======================================================================================================================
+
+
+                        //if-else Ladder
+
+#include<stdio.h>
+int main()
+{
+    int tk;
+    scanf("%d", &tk);
+
+    if(tk>=100){
+        printf("Burger khabo\n");   //if er code
+    }
+    else if(tk>=50){
+        printf("Pizza khabo\n");   //else if er code
+    }
+    else{
+        printf("kichui khabo na\n");  //else er code
+    }
+
+    return 0;
+}
+
+======================================================================================================================
+
+//mod operation
+
+#include<stdio.h>
+int main()
+{
+    // int a = 12;
+    // int b = 5;
+    // int mod = a % b;
+    // printf("%d\n", mod);
+
+
+    int a = 18;
+    int b = 5;
+    int mod = a % b;
+    printf("%d\n", mod);
+
+
+    return 0;
+}
+
+======================================================================================================================
+
+                //Nested Loop_01
+
+#include <stdio.h>
+int main()
+{
+    int tk;
+    scanf("%d", &tk);
+
+    if (tk >= 5000)
+    {
+        printf("Cox's bazar jabo\n");
+        if (tk >= 10000)
+        {
+            printf("Saint Martin jabo\n");
+        }
+        else
+        {
+            printf("Saint Martin jabo na\n");
+        }
+    }
+    else
+    {
+        printf("Kothao jabo na\n");
+    }
+
+    return 0;
+}
+
+====================================================================================================================
+
+                    //Nested Loop_02
+
+
+#include <stdio.h> 
+int main()
+{
+    int tk;
+    scanf("%d", &tk);
+
+    if(tk>=5000){
+        printf("Cox's Bazar jabo\n");
+    }
+    if(tk>=600){
+        printf("Sajek jabo\n");
+    }
+    if(tk>=10000){
+        printf("Saint Martin jabo\n");
+    }
+    return 0;
+}
+
+======================================================================================================================
+
+                    //Practic
+
+// #include <stdio.h>
+// int main()
+// {
+//     int a=10;
+//     int b=5;
+//     int sum = a+b;
+
+//     printf("Sumation of a and b : %d\n", sum);
+
+//     int sub = a-b;
+//     printf("Subtraction of a and b : %d\n", sub);
+//     return 0;
+// }
+
+
+// #include<stdio.h>
+// int main(){
+//     int N;
+//     scanf("%d", &N);
+
+//     if(N==0){
+//         printf("Zero");
+//     }
+//     else{
+//         printf("Not Zero");
+//     }
+
+//     return 0;
+// }
+
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int N;
+//     scanf("%d", &N);
+
+//     int a = 5;
+//     scanf("%d", &a);
+
+//     int sum = N +a;
+//     printf("%d", sum);
+
+//     return 0;
+// }
+
+////////////////////////////////////////////////////////////////////
+
+// Support season e dekhte hobe
+
+
+// multiple or not 
+// #include<stdio.h>
+// int main(){
+//     int a,b;
+//     scanf("%d %d", &a, &b);
+
+//     if(a%b==0 || b%a==0 ){
+//         printf("yes");
+//     }
+//     else{
+//         printf("no");
+//     }
+// }
+
+
+
+
+
+
+
+// #include<stdio.h>
+// int main(){
+//     float x;
+//     scanf("%f", &x);
+
+//     printf("%.3f", x);
+//    return 0;
+// }
+
+
+
+
+// int num =111;
+// printf("please provite a number : %d", num);
+// scanf("rafi%d", &num);
+// printf("you have entered : %d", num);
+// printf("%p", &num);
+
+
+
+// output e :
+
+// rafi251 thakle 251 eri output hobe , 111 output hobe na.
+
