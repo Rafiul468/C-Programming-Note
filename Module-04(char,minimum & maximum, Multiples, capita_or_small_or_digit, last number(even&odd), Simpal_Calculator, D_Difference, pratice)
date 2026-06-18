@@ -1,0 +1,247 @@
+            //char
+
+#include<stdio.h>
+int main(){
+    char ch;
+    scanf("%c",&ch);
+
+    if(ch >= 'a' && ch <= 'z'){
+        ch = ch - 32;
+        printf("%c",ch);
+    }
+    else{
+        ch = ch + 32;
+        printf("%c",ch);
+    }
+    return 0;   
+}
+
+===============================================================================================================================
+
+                  //minimum
+
+
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+
+
+    if(a<=b && a<=c){
+        printf("%d ",a);
+    }
+    else if(b<=a && b<=c){
+        printf("%d ",b);
+    }
+   else if(c<=a && c<=b){
+    printf("%d ",c);
+   }
+
+*********************************************************************************************************************************       //maximum
+
+                      //MaxiMaximum 
+
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if(a>=b && a>=c){
+        printf("%d",a);
+    }
+    else if(b>=a && b>=c){
+        printf("%d",b);
+    }
+   else if(c>=a && c>=b){
+    printf("%d",c);
+   }
+    return 0;   
+}
+
+********************************************************************************************************************************
+
+
+            // Simple calculator
+
+#include<stdio.h>
+int main()
+{
+    int x,y;
+    scanf("%d %d", &x, &y);
+    
+    int sum = x+y;
+
+    int mul = x*y;
+
+    int sub = x-y;
+    
+    
+    printf("%d + %d = %d\n", x, y, sum);
+
+    printf("%d * %d = %d\n", x, y, mul);
+
+    printf("%d - %d = %d\n", x, y, sub);
+    
+    
+    
+    return 0;
+}
+
+
+********************************************************************************************************************************
+
+                  //Difference
+
+#include<stdio.h>
+int main(){
+    int a,b,c,d;
+    scanf("%d%d%d%d",&a,&b,&c, &d);
+
+    int x=(a*b)-(c*d);
+    printf("Difference = %d",x);
+
+    return 0;   
+}
+
+
+===============================================================================================================================
+
+            //Multiples
+
+#include<stdio.h>
+int main(){
+
+    int a,b;
+    scanf("%d %d",&a,&b);
+
+
+    if(a%b==0){
+        printf("Multiples");
+    }
+    else if(b%a==0){
+        printf("Multiples");
+    }
+    else{
+        printf("No Multiples");
+    }
+    return 0;   
+}
+
+===============================================================================================================================
+
+                //capita_or_small_or_digit
+
+#include<stdio.h>
+int main(){
+    char ch;
+    scanf("%c",&ch);
+
+    if(ch>='0' && ch<='9'){
+        printf("IS DIGIT");
+    }
+    else{
+        printf("ALPHA\n");
+        if(ch>='A' && ch<='Z'){
+            printf("IS CAPITAL");
+        }
+        else{
+            printf("IS SMALL");
+        }
+    }
+    return 0;   
+}
+
+===============================================================================================================================
+
+                    //first_digit
+
+
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+
+    int first_digit = n/1000;
+
+    if(first_digit%2==0){
+        printf("EVEN");
+    }
+    else{
+        printf("ODD");
+    }
+    return 0;   
+}
+
+
+******************************************************************************************************************************
+
+//last digit print(even odd)
+
+#include<stdio.h>
+int main(){
+    int x;
+    scanf("%d",&x);
+
+    int last_digit = x%1000;
+    if(last_digit%2==0){
+        printf("EVEN");
+    }
+    else{
+        printf("ODD");
+    }
+    return 0;   
+}
+
+
+==============================================================================================================================
+
+
+            //Simpal_Calculator
+
+#include<stdio.h>
+int main(){
+    long long int x,y;
+    scanf("%lld %lld", &x, &y);
+
+    long long int sum = x+y;
+    
+    long long int mul = x*y;
+ 
+    long long int sub = x-y;
+    
+    
+    printf("%lld + %lld = %lld\n", x, y, sum);
+ 
+    printf("%lld * %lld = %lld\n", x, y, mul);
+ 
+    printf("%lld - %lld = %lld\n", x, y, sub);
+    
+    return 0;   
+}
+
+===============================================================================================================================
+
+                    //D_Difference
+
+#include<stdio.h>
+int main(){
+    long long int a,b,c,d;
+    scanf("%lld%lld%lld%lld",&a,&b,&c,&d);
+
+    long long int x= (a*b) - (c*d);
+    printf("Difference = %lld",x);
+    return 0;   
+}
+
+===============================================================================================================================
+
+            //pratice
+
+#include<stdio.h>
+int main(){
+    long long int a,b,c,d;
+    scanf("%lld%lld%lld%lld",&a,&b,&c,&d);
+
+    int x= (a*b) - (c*d);
+    printf("Difference = %d",x);
+    return 0;   
+}
